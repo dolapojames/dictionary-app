@@ -13,15 +13,15 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
+    //documentation- https://www.shecodes.io/learn/apis/dictionary
+    const apiKey = "5ca9a4e04df3dddde0tdc3bec6cd3f5o";
+    const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
+    axios.get(apiUrl).then(handleResponse);
   }
 
   function handleResponse(response) {
     setResults(response.data);
   }
-  //documentation- https://www.shecodes.io/learn/apis/dictionary
-  const apiKey = "5ca9a4e04df3dddde0tdc3bec6cd3f5o";
-  const apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
-  axios.get(apiUrl).then(handleResponse);
 
   return (
     <div className="Dictionary">
