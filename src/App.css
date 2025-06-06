@@ -1,5 +1,7 @@
 .App {
   background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -14,4 +16,12 @@
 .App footer {
   text-align: center;
   margin-top: 10px;
+}
+
+.App form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(215, 210, 210);
 }

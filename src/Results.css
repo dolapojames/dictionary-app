@@ -1,0 +1,9 @@
+.Results h1,
+h2 {
+  color: rgb(110, 107, 62);
+}
+
+.Results h1 {
+  font-size: 35px;
+  margin-bottom: 8px;
+}

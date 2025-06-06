@@ -1,6 +1,33 @@
 .Dictionary {
-  background-color: antiquewhite;
+  background-color: rgb(212, 211, 211);
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(212, 211, 211);
+  font-size: 18px;
+}
+
+.Dictionary section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Dictionary .Hint {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.Dictionary h1 {
+  font-size: 24px;
 }
