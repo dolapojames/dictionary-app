@@ -12,7 +12,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Dolapo James and hosted on Netlify</footer>
+        <footer>
+          Coded by Dolapo James and hosted on{" "}
+          <a
+            href="https://mydictionary-application.netlify.app/"
+            target="blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
